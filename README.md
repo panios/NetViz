@@ -14,7 +14,7 @@ Network visualization tool for financial transfer data. Drag and drop spreadshee
 ![Graph Details](screenshots/graph-details.png)
 
 ## What it does
-- Reads CSV/Excel/ODS files with "From" and "To" columns (plus optional "Amount")
+- Reads CSV/Excel/ODS files with "From" and "To" columns (plus optional "Amount").
 - Automatically detects column names (handles variations like "from", "From", "FROM")
 - Creates directed network graph with nodes as accounts and edges as transfers
 - Shows transfer counts and amounts on hover
@@ -57,3 +57,4 @@ Multiple transfers between same accounts are aggregated and counted.
 pyinstaller NetViz.spec
 
 The exe will be created in dist/ folder.
+
